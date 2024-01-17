@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Registration Form</title>
+</head>
+<body class="body">
+  <div class="card">
+    <h1>Registration Form</h1>
+    <form  action="/register" method="post">
+      <h2>
+        Name<input type="text" id="name" name="name" required placeholder="Enter your name">
+      </h2>
+      <h2>
+        Email<input type="email" id="email" name="email" required placeholder="Enter your email">
+      </h2>
+      <h2>
+        Phone<input type="tel" id="phone" name="phone" required placeholder="Phone No.">
+      </h2>
+
+      <h2>
+        Password<input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="At least 8 characters"
+        >
+      </h2>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

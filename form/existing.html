@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Already Exists!</title>
+    <style>
+        .existing {
+            background-color: red;
+            display: flex;
+            border-radius: 15px;
+            margin: auto ;
+            padding: 10px;
+            width: 400px;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .existing h2 {
+            color: white;
+            cursor: pointer;
+        }
+
+        .existing h2:hover {
+            translate: 10px;
+            transition: 500ms;
+            color: beige;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="existing" action="/existing">
+        <h2>User Already Registered!</h2>
+    </div>
+</body>
+</html>
