@@ -24,6 +24,7 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + "/form"));
 
 app.get("/", (req, res) => {
+  res.setHeader('Content-Type', 'text/html');
   res.sendFile(__dirname + "/form/index.html");
 });
 
